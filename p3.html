@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garcia BFA</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .navbar {
+            background-color: #f1f1f1;
+            padding: 10px 0;
+        }
+
+        .nav_pad ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center; 
+            flex-wrap: wrap; 
+        }
+
+        .nav_pad li {
+            margin: 0 10px;
+        }
+
+        .navbar-link button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .navbar-link button:hover {
+            background-color: #45a049;
+        }
+
+        .content {
+            text-align: center; 
+        }
+
+        .tworowrow {
+            font-size: 60px;
+            color: rgb(11, 179, 50);
+            margin: 20px 0; 
+        }
+
+        .eightrowrow {
+            font-size: 23px;
+            color: rgb(11, 179, 50);
+            margin: 20px 10%; 
+            text-align: justify; 
+        }
+
+        img {
+            width: 200%;
+            max-width: 1800px; 
+            height: auto; 
+            margin: 20px 0; 
+        }
+
+        @media (max-width: 600px) {
+            .tworowrow {
+                font-size: 40px;
+            }
+
+            .eightrowrow {
+                font-size: 18px; 
+                margin: 20px 5%; 
+            }
+
+            .nav_pad ul {
+                flex-direction: column; 
+            }
+
+            .nav_pad li {
+                margin: 5px 0; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav_pad">  
+                <ul>
+                    <li><a class="navbar-link" href="p1.html"><button>Art Work</button></a></li>
+                    <li><a class="navbar-link" href="p2.html"><button>Artist Statement</button></a></li>
+                    <li><a class="navbar-link" href="p3.html"><button>About Me</button></a></li>
+                </ul>
+            </div>     
+        </nav>
+
+        <div class="content">
+            <p class="tworowrow">About Me</p>
+            <img src="assest/myself.png" class="u-full-width11" alt="Myself"/>
+            <p class="eightrowrow">
+                David Perez Garcia grew up most of his life in California from birth and up to now, even though he didn't visit much outside of his states, he is very passionate about what he does. He graduated from DCP El Primero High school and is now attending San Jose State University trying to major in Digital Media Art. He is a first-generation college student out of his family, which even though it is exciting for him to be the first, however, it brings a lot of stress. Even though he knows this, he keeps pushing forward with what he is passionate about, which is making art through the digital medium. This led him to learn about a wide range of Adobe programs from Photoshop/Illustrator to 3D modeling in Meshmixer and Substance 3D experience for almost 2 years now. He is also learning p5.js coding to make coding art from brushes to short animations. His main goal is to pursue the 3D modeling/video art industry. This will allow him to pursue what he is passionate about while improving his art skills significantly. He also hopes to express himself fully, which in return can inspire other artists through their own work and improve themselves as well.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
